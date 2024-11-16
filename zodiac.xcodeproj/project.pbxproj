@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		9B330F3674BDE0E75A9BB782 /* Pods_zodiac_zodiacUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 650A637739F11E6C662DF0AA /* Pods_zodiac_zodiacUITests.framework */; };
+		ABC7536C7D3195958234E01E /* Pods_zodiac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE11FD7F00FA64741F17BBF /* Pods_zodiac.framework */; };
+		D21661CFDC1C5FA83E29D01B /* Pods_zodiacTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19007506D095279201B77DB8 /* Pods_zodiacTests.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		DF0E91FD2CE8EC9600BB2920 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,9 +30,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C3FFB53250BD2CD4DA50CD9 /* Pods-zodiac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zodiac.release.xcconfig"; path = "Target Support Files/Pods-zodiac/Pods-zodiac.release.xcconfig"; sourceTree = "<group>"; };
+		0EE11FD7F00FA64741F17BBF /* Pods_zodiac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zodiac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19007506D095279201B77DB8 /* Pods_zodiacTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zodiacTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAD69BF818BB22A460C3D16 /* Pods-zodiac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zodiac.debug.xcconfig"; path = "Target Support Files/Pods-zodiac/Pods-zodiac.debug.xcconfig"; sourceTree = "<group>"; };
+		45408814D7C881F36FDEC727 /* Pods-zodiacTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zodiacTests.debug.xcconfig"; path = "Target Support Files/Pods-zodiacTests/Pods-zodiacTests.debug.xcconfig"; sourceTree = "<group>"; };
+		650A637739F11E6C662DF0AA /* Pods_zodiac_zodiacUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_zodiac_zodiacUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9834248F5EABA3F8C1F698D2 /* Pods-zodiac-zodiacUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zodiac-zodiacUITests.debug.xcconfig"; path = "Target Support Files/Pods-zodiac-zodiacUITests/Pods-zodiac-zodiacUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DF0E91E62CE8EC9300BB2920 /* zodiac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zodiac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0E91FC2CE8EC9600BB2920 /* zodiacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zodiacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0E92062CE8EC9600BB2920 /* zodiacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zodiacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D677C917BC5213CF498E22 /* Pods-zodiac-zodiacUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zodiac-zodiacUITests.release.xcconfig"; path = "Target Support Files/Pods-zodiac-zodiacUITests/Pods-zodiac-zodiacUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F56DD0001C1F58F779F4D44D /* Pods-zodiacTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-zodiacTests.release.xcconfig"; path = "Target Support Files/Pods-zodiacTests/Pods-zodiacTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC7536C7D3195958234E01E /* Pods_zodiac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D21661CFDC1C5FA83E29D01B /* Pods_zodiacTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B330F3674BDE0E75A9BB782 /* Pods_zodiac_zodiacUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E3E7F276C565F589994E125 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EE11FD7F00FA64741F17BBF /* Pods_zodiac.framework */,
+				650A637739F11E6C662DF0AA /* Pods_zodiac_zodiacUITests.framework */,
+				19007506D095279201B77DB8 /* Pods_zodiacTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B7F9109BBC774A6B6D6E2D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AAD69BF818BB22A460C3D16 /* Pods-zodiac.debug.xcconfig */,
+				0C3FFB53250BD2CD4DA50CD9 /* Pods-zodiac.release.xcconfig */,
+				9834248F5EABA3F8C1F698D2 /* Pods-zodiac-zodiacUITests.debug.xcconfig */,
+				E8D677C917BC5213CF498E22 /* Pods-zodiac-zodiacUITests.release.xcconfig */,
+				45408814D7C881F36FDEC727 /* Pods-zodiacTests.debug.xcconfig */,
+				F56DD0001C1F58F779F4D44D /* Pods-zodiacTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DF0E91DD2CE8EC9300BB2920 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +133,8 @@
 				DF0E91FF2CE8EC9600BB2920 /* zodiacTests */,
 				DF0E92092CE8EC9600BB2920 /* zodiacUITests */,
 				DF0E91E72CE8EC9300BB2920 /* Products */,
+				9B7F9109BBC774A6B6D6E2D7 /* Pods */,
+				6E3E7F276C565F589994E125 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF0E920F2CE8EC9600BB2920 /* Build configuration list for PBXNativeTarget "zodiac" */;
 			buildPhases = (
+				31369B2BDEA4087F180A8AE7 /* [CP] Check Pods Manifest.lock */,
 				DF0E91E22CE8EC9300BB2920 /* Sources */,
 				DF0E91E32CE8EC9300BB2920 /* Frameworks */,
 				DF0E91E42CE8EC9300BB2920 /* Resources */,
+				7DEE07509393E9403F489226 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,8 +169,6 @@
 				DF0E91E82CE8EC9300BB2920 /* zodiac */,
 			);
 			name = zodiac;
-			packageProductDependencies = (
-			);
 			productName = zodiac;
 			productReference = DF0E91E62CE8EC9300BB2920 /* zodiac.app */;
 			productType = "com.apple.product-type.application";
@@ -134,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF0E92142CE8EC9600BB2920 /* Build configuration list for PBXNativeTarget "zodiacTests" */;
 			buildPhases = (
+				B901BEC42EF08002A031AD31 /* [CP] Check Pods Manifest.lock */,
 				DF0E91F82CE8EC9600BB2920 /* Sources */,
 				DF0E91F92CE8EC9600BB2920 /* Frameworks */,
 				DF0E91FA2CE8EC9600BB2920 /* Resources */,
@@ -147,8 +191,6 @@
 				DF0E91FF2CE8EC9600BB2920 /* zodiacTests */,
 			);
 			name = zodiacTests;
-			packageProductDependencies = (
-			);
 			productName = zodiacTests;
 			productReference = DF0E91FC2CE8EC9600BB2920 /* zodiacTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF0E92172CE8EC9600BB2920 /* Build configuration list for PBXNativeTarget "zodiacUITests" */;
 			buildPhases = (
+				966829B37FEECD61B9C5EA45 /* [CP] Check Pods Manifest.lock */,
 				DF0E92022CE8EC9600BB2920 /* Sources */,
 				DF0E92032CE8EC9600BB2920 /* Frameworks */,
 				DF0E92042CE8EC9600BB2920 /* Resources */,
+				A3F0FFDCB04ED72DA87C7DF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,8 +214,6 @@
 				DF0E92092CE8EC9600BB2920 /* zodiacUITests */,
 			);
 			name = zodiacUITests;
-			packageProductDependencies = (
-			);
 			productName = zodiacUITests;
 			productReference = DF0E92062CE8EC9600BB2920 /* zodiacUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
@@ -244,6 +286,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31369B2BDEA4087F180A8AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zodiac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DEE07509393E9403F489226 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zodiac/Pods-zodiac-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zodiac/Pods-zodiac-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zodiac/Pods-zodiac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		966829B37FEECD61B9C5EA45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zodiac-zodiacUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F0FFDCB04ED72DA87C7DF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zodiac-zodiacUITests/Pods-zodiac-zodiacUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-zodiac-zodiacUITests/Pods-zodiac-zodiacUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-zodiac-zodiacUITests/Pods-zodiac-zodiacUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B901BEC42EF08002A031AD31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-zodiacTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF0E91E22CE8EC9300BB2920 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -284,6 +429,7 @@
 /* Begin XCBuildConfiguration section */
 		DF0E92102CE8EC9600BB2920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AAD69BF818BB22A460C3D16 /* Pods-zodiac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,6 +449,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.zodiac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,6 +461,7 @@
 		};
 		DF0E92112CE8EC9600BB2920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C3FFB53250BD2CD4DA50CD9 /* Pods-zodiac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,6 +481,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = kz.mobydev.zodiac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -373,7 +528,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -436,7 +591,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -457,6 +612,7 @@
 		};
 		DF0E92152CE8EC9600BB2920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45408814D7C881F36FDEC727 /* Pods-zodiacTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -475,6 +631,7 @@
 		};
 		DF0E92162CE8EC9600BB2920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56DD0001C1F58F779F4D44D /* Pods-zodiacTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -493,6 +650,7 @@
 		};
 		DF0E92182CE8EC9600BB2920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9834248F5EABA3F8C1F698D2 /* Pods-zodiac-zodiacUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,6 +667,7 @@
 		};
 		DF0E92192CE8EC9600BB2920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D677C917BC5213CF498E22 /* Pods-zodiac-zodiacUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

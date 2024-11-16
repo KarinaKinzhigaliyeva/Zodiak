@@ -1,0 +1,6 @@
+framework module Pods_zodiacTests {
+  umbrella header "Pods-zodiacTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
